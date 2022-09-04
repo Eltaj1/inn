@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestChat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/crypto.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    body {
+        background-color: rgb(23, 30, 63);
+    }
+</style>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"><img src="img/InvestChat (1).svg" alt="InvestChat"></a>
+        <a></a>
+        <a href="index.html"><i class="bx bx-home icon"> Главная</i></a>
+        <a></a>
+        <a href="investacademy/academy.html"><i class='bx bxs-school icon'> InvestAcademy</i></a>
+        <a></a>
+        <a href="about.html"><i class='bx bxs-show icon'> О нас</i></a>
+        <a></a>
+        <a href="termin.html"><i class="bx bxs-graduation icon"> Инфоурок</i></a>
+        <a></a>
+        <a href="patterns.html"><i class="bx bx-line-chart icon"> Паттерны</i></a>
+        <a></a>
+        <a href="home.html"><i class="bx bxs-briefcase icon"> Новости бизнеса</i></a>
+        <a></a>
+        <a href="treemap.html"><i class="bx bxs-tree-alt icon"> Headmap</i></a>
+        <a></a>
+        <a href="news2.html"><i class='bx  bxs-news icon' > Мировые новости </i></a>
+        <a></a>
+        <a href="chat.html"><i class="bx bx-envelope icon"> Чат</i></a>
+        <a></a>
+        <a href="news.html"><i class="bx bx-chart icon"> Новости биржы</i></a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFlJREFUSEvtVUEOACAIiv8/ms6Zh9TR2rJzhQgohvhA/P+4D0CSFVYAlqI3BnKASvXe27c1sP0+YhDRIAXwlwZuzzsHUROURkXKpp0Dq1FJg85B1PLuffnCmQz5KBkkImcmAAAAAElFTkSuQmCC"/></span>
+    </div>
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "270px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <div class="tv-embed-widget-layout tv-external-tools">
+        <div class="tv-layout-width tv-embed-widget-layout__block tv-embed-widget-layout__example-section tv-embed-widget-layout__example-section--top-example">
+            <div class="tv-embed-widget-layout__example tv-embed-widget-layout__full-viewport-width-container">
+                <div id="advanced-chart" class="tv-embed-widget-layout__example-body" style="overflow: hidden;">
+                    <div class="tradingview-widget-container" style="height: calc(100% - 32px);">
+                        <div id="tradingview_1131e" style="height: 600px;">
+                            <div id="tradingview_1b649-wrapper" style="position: relative;box-sizing: content-box;width: 100%;height: 600px;margin: 0 auto !important;padding: 0 !important;font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif;">
+                                <div style="width: 100%;height: 100%;background: transparent;padding: 0 !important;"><iframe id="tradingview_1b649" src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_1b649&amp;symbol=NASDAQ%3AAAPL&amp;interval=1&amp;range=YTD&amp;hidesidetoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=f1f3f6&amp;watchlist=NASDAQ%3ATSLA%1FNASDAQ%3ANFLX%1FFX%3AEURUSD%1FCOINBASE%3ABTCUSD%1FNYMEX%3ACL1!%1FNASDAQ%3AGOOGL%1FCOINBASE%3AETHUSD%1FNYMEX%3ANG1!&amp;details=1&amp;calendar=1&amp;hotlist=1&amp;studies=ChoppinessIndex%40tv-basicstudies&amp;theme=dark&amp;style=1&amp;timezone=Europe%2FMoscow&amp;withdateranges=1&amp;showpopupbutton=1&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;showpopupbutton=1&amp;locale=ru&amp;utm_source=www.tradingview.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=NASDAQ%3AAAPL"
+                                        style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <div class="tradingview-widget-copyright" style="width: 100%;"><a href="https://ru.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span></a>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;"></font>
+                            </font>
+                        </div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                        <script type="text/javascript" nonce="">
+                            new TradingView.widget({
+                                "autosize": true,
+                                "symbol": "NASDAQ:AAPL",
+                                "timezone": "Europe/Moscow",
+                                "theme": "dark",
+                                "style": "1",
+                                "locale": "ru",
+                                "toolbar_bg": "#f1f3f6",
+                                "enable_publishing": false,
+                                "hide_top_toolbar": false,
+                                "hide_legend": false,
+                                "withdateranges": true,
+                                "range": "YTD",
+                                "hide_side_toolbar": false,
+                                "allow_symbol_change": true,
+                                "save_image": true,
+                                "watchlist": [
+                                    "BITSTAMP:BTCUSD",
+                                    "OANDA:XAUUSD",
+                                    "FX:EURUSD",
+                                    "NASDAQ:TSLA",
+                                    "COINBASE:ETHUSD",
+                                    "NASDAQ:NFLX",
+                                    "NYSE:TWTR",
+                                    "BINANCE:SOLUSDT"
+                                ],
+                                "details": true,
+                                "hotlist": false,
+                                "calendar": false,
+                                "studies": [
+                                    "ChoppinessIndex@tv-basicstudies"
+                                ],
+                                "show_popup_button": true,
+                                "popup_width": "1000",
+                                "popup_height": "650",
+                                "height": "600px",
+                                "width": "100%",
+                                "container_id": "tradingview_1131e"
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <script src="https://crypto.com/price/static/widget/index.js"></script>
+            <div id="crypto-widget-CoinMarquee" data-transparent="true" data-theme="dark" data-design="modern" data-coins="cardano,bitcoin,ethereum,tether,solana,polkadot-new,html-coin"></div>
+
+
+
+            <div class="wrapper">
+                <div class="typing">
+                    <h2>Рыночные данные</h2>
+                </div>
+            </div>
+            <h1></h1>
+        </div>
+
+        <div class="tv-external-tools__padding_standard tv-content__highlight-background">
+            <div class="tv-external-tools__widget-block--flex">
+                <div class="tv-external-tools__widget-iframe-wrap js-widget-wizard__example" style="width: 100%; height: 100%; overflow: hidden;">
+                    <div class="tradingview-widget-container" style="width: 100%; height: 600px;">
+                        <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/market-quotes/?locale=ru#%7B%22width%22%3A770%2C%22height%22%3A450%2C%22symbolsGroups%22%3A%5B%7B%22name%22%3A%22%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B%22%2C%22originalName%22%3A%22Indices%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22displayName%22%3A%22S%26P%20500%22%7D%2C%7B%22name%22%3A%22FOREXCOM%3ANSXUSD%22%2C%22displayName%22%3A%22US%20100%22%7D%2C%7B%22name%22%3A%22FOREXCOM%3ADJI%22%2C%22displayName%22%3A%22Dow%2030%22%7D%2C%7B%22name%22%3A%22INDEX%3ANKY%22%2C%22displayName%22%3A%22Nikkei%20225%22%7D%2C%7B%22name%22%3A%22INDEX%3ADEU40%22%2C%22displayName%22%3A%22DAX%20Index%22%7D%2C%7B%22name%22%3A%22FOREXCOM%3AUKXGBP%22%2C%22displayName%22%3A%22UK%20100%22%7D%5D%7D%2C%7B%22name%22%3A%22%D0%A4%D1%8C%D1%8E%D1%87%D0%B5%D1%80%D1%81%D1%8B%22%2C%22originalName%22%3A%22Futures%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22CME_MINI%3AES1!%22%2C%22displayName%22%3A%22S%26P%20500%22%7D%2C%7B%22name%22%3A%22CME%3A6E1!%22%2C%22displayName%22%3A%22Euro%22%7D%2C%7B%22name%22%3A%22COMEX%3AGC1!%22%2C%22displayName%22%3A%22Gold%22%7D%2C%7B%22name%22%3A%22NYMEX%3ACL1!%22%2C%22displayName%22%3A%22Crude%20Oil%22%7D%2C%7B%22name%22%3A%22NYMEX%3ANG1!%22%2C%22displayName%22%3A%22Natural%20Gas%22%7D%2C%7B%22name%22%3A%22CBOT%3AZC1!%22%2C%22displayName%22%3A%22Corn%22%7D%5D%7D%2C%7B%22name%22%3A%22%D0%9E%D0%B1%D0%BB%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D0%B8%22%2C%22originalName%22%3A%22Bonds%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22CME%3AGE1!%22%2C%22displayName%22%3A%22Eurodollar%22%7D%2C%7B%22name%22%3A%22CBOT%3AZB1!%22%2C%22displayName%22%3A%22T-Bond%22%7D%2C%7B%22name%22%3A%22CBOT%3AUB1!%22%2C%22displayName%22%3A%22Ultra%20T-Bond%22%7D%2C%7B%22name%22%3A%22EUREX%3AFGBL1!%22%2C%22displayName%22%3A%22Euro%20Bund%22%7D%2C%7B%22name%22%3A%22EUREX%3AFBTP1!%22%2C%22displayName%22%3A%22Euro%20BTP%22%7D%2C%7B%22name%22%3A%22EUREX%3AFGBM1!%22%2C%22displayName%22%3A%22Euro%20BOBL%22%7D%5D%7D%2C%7B%22name%22%3A%22%D0%A4%D0%BE%D1%80%D0%B5%D0%BA%D1%81%22%2C%22originalName%22%3A%22Forex%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX%3AEURUSD%22%2C%22displayName%22%3A%22EUR%2FUSD%22%7D%2C%7B%22name%22%3A%22FX%3AGBPUSD%22%2C%22displayName%22%3A%22GBP%2FUSD%22%7D%2C%7B%22name%22%3A%22FX%3AUSDJPY%22%2C%22displayName%22%3A%22USD%2FJPY%22%7D%2C%7B%22name%22%3A%22FX%3AUSDCHF%22%2C%22displayName%22%3A%22USD%2FCHF%22%7D%2C%7B%22name%22%3A%22FX%3AAUDUSD%22%2C%22displayName%22%3A%22AUD%2FUSD%22%7D%2C%7B%22name%22%3A%22FX%3AUSDCAD%22%2C%22displayName%22%3A%22USD%2FCAD%22%7D%5D%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22largeChartUrl%22%3A%22http%3A%2F%2F127.0.0.1%3A5500%2Fterminalcrypto.html%22%2C%22utm_source%22%3A%22ru.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-quotes%22%7D"
+                            style="box-sizing: border-box; height: calc(100% - 32px); width: 100%;"></iframe>
+                        <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text"></span></a>Invest<span class="blue">Chat</span></div>
+
+                        <style>
+                            .tradingview-widget-copyright {
+                                font-size: 13px !important;
+                                line-height: 32px !important;
+                                text-align: center !important;
+                                vertical-align: middle !important;
+                                /* @mixin sf-pro-display-font; */
+                                font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+                                color: #9db2bd !important;
+                            }
+                            
+                            .tradingview-widget-copyright .blue-text {
+                                color: #2962FF !important;
+                            }
+                            
+                            .tradingview-widget-copyright a {
+                                text-decoration: none !important;
+                                color: #9db2bd !important;
+                            }
+                            
+                            .tradingview-widget-copyright a:visited {
+                                color: #9db2bd !important;
+                            }
+                            
+                            .tradingview-widget-copyright a:hover .blue-text {
+                                color: #1E53E5 !important;
+                            }
+                            
+                            .tradingview-widget-copyright a:active .blue-text {
+                                color: #1848CC !important;
+                            }
+                            
+                            .tradingview-widget-copyright a:visited .blue-text {
+                                color: #2962FF !important;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="typing">
+                <h2>Экономический календарь</h2>
+            </div>
+        </div>
+        <h1></h1>
+    </div>
+    <div id="tv-eventswidget-container" class="tv-grid__col tv-grid__col_xs--7 tv-grid__col_md--7 tv-grid__col_lg--7 tv-grid__col--padding_0 tv-external-tools__widget-block">
+
+        <div class="tv-external-tools__widget-iframe-wrap js-widget-example" style="width: 100%; height: 600px; overflow: hidden;">
+            <div class="tradingview-widget-container" style="width: 100%; height: 600px;">
+                <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/events/?locale=ru#%7B%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22width%22%3A%22510%22%2C%22height%22%3A%22600%22%2C%22importanceFilter%22%3A%220%2C1%22%2C%22utm_source%22%3A%22ru.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%7D"
+                    style="box-sizing: border-box; height: calc(568px); width: 100%;"></iframe>
+                <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/markets/currencies/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+
+                <style>
+                    .tradingview-widget-copyright {
+                        font-size: 13px !important;
+                        line-height: 32px !important;
+                        text-align: center !important;
+                        vertical-align: middle !important;
+                        /* @mixin sf-pro-display-font; */
+                        font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+                        color: #9db2bd !important;
+                    }
+                    
+                    .tradingview-widget-copyright .blue-text {
+                        color: #2962FF !important;
+                    }
+                    
+                    .tradingview-widget-copyright a {
+                        text-decoration: none !important;
+                        color: #9db2bd !important;
+                    }
+                    
+                    .tradingview-widget-copyright a:visited {
+                        color: #9db2bd !important;
+                    }
+                    
+                    .tradingview-widget-copyright a:hover .blue-text {
+                        color: #1E53E5 !important;
+                    }
+                    
+                    .tradingview-widget-copyright a:active .blue-text {
+                        color: #1848CC !important;
+                    }
+                    
+                    .tradingview-widget-copyright a:visited .blue-text {
+                        color: #2962FF !important;
+                    }
+                </style>
+                <style>
+                    .blue {
+                        color: blue;
+                    }
+                </style>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="py-5 text-center">
+            <p>&copy; 2022 Invest<span class="blue">Chat</span></p>
+
+</body>
+
+</html>
